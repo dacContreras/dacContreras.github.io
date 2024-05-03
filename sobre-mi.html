@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <!-- estilos -->
+    <link rel="stylesheet" href="assets/fonts/fontawesome-free-6.1.2-web/css/all.min.css">
+    <link rel="stylesheet" href="assets/fonts/poppins/poppins.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/scroll.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <script src="assets/js/menu.js" defer></script>
+
+    <title>Portafolio</title>
+</head>
+<body>
+    <!-- layout principal -->
+    <div class="layout">
+        <!-- barra lateral | info usuario-->
+        <aside class="layout__aside">
+            <section class="aside__user-info">
+                <!-- info general -->
+                <div class="user-info__general">
+                    <div class="user-info__container-image">
+                        <img src="assets/img/img2.jpg" alt="Foto Perfil Daniel Contreras" class="user-info__image">
+                    </div>
+                    <h2 class="user-info__name">Daniel Contreras</h2>
+                    <h4 class="user-info__job">Frontend Developer</h4>
+                </div>
+
+                <!-- menu de navegacion -->
+                <nav class="layout__menu">
+                    <ul class="menu__list">
+                        <li class="menu__option">
+                            <a href="index.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-house"></i>
+                                <span class="menu__overlay">Home</span>
+                            </a>
+                        </li>
+                        <li class="menu__option">
+                            <a href="sobre-mi.html" class="menu__link menu__link--active">
+                                <i class="menu__icon fa-solid fa-user"></i>
+                                <span class="menu__overlay">Sobre Mi</span>
+                            </a>
+                        </li>
+                        <li class="menu__option">
+                            <a href="estudios.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-graduation-cap"></i>
+                                <span class="menu__overlay">Estudios</span>
+                            </a>
+                        </li>
+                        <li class="menu__option">
+                            <a href="portafolio.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-briefcase"></i>
+                                <span class="menu__overlay">Portafolio</span>
+                            </a>
+                        </li>
+                        <li class="menu__option">
+                            <a href="contacto.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-envelope"></i>
+                                <span class="menu__overlay">Contacto</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <!-- links a redes sociales -->
+                <div class="user-info__links">
+                    <ul class="links__social">
+                        <li class="social__option">
+                            <a href="" class="social__link">
+                                <i class="social__icon fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li class="social__option">
+                            <a href="" class="social__link">
+                                <i class="social__icon fa-brands fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <li class="social__option">
+                            <a href="" class="social__link">
+                                <i class="social__icon fa-brands fa-github"></i>
+                            </a>
+                        </li>
+                        <li class="social__option">
+                            <a href="" class="social__link">
+                                <i class="social__icon fa-brands fa-codepen"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- boton del curriculum -->
+                <div class="user-info__buttons">
+                    <a href="" class="user-info__btn">Descargar Cv</a>
+                </div>
+
+                <!-- pie de pagina -->
+                <footer class="user-info__footer">&copy; 2024 Daniel Contreras WebSite</footer>
+
+            </section>
+        </aside>
+
+        <!-- MENU RESPONSIVE -->
+        <div class="layout__menu-toggle">
+            <i class="fa-solid fa-bars toggle__icon"></i>
+            <i class="fa-solid fa-xmark toggle__icon"></i>
+        </div>
+
+        <!-- Contenido -->
+        <main class="layout__content">
+            <section class="content__page content__about">
+                <!-- ESTE CONTENIDO CAMBIA EN CADA PAGINA DEL SITIO -->
+                <header class="about__header">
+                    <h1 class="about__title">Sobre <span class="title__color">Mi</span></h1>
+                </header>
+
+                <section class="about__personal-info">
+                    <article class="personal-info__bio">
+                        <p class="personal-info__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, vel. Unde possimus similique accusamus vel quos rem incidunt. Itaque doloremque explicabo labore optio minus beatae excepturi quidem inventore. Dolores, optio. Ducimus maiores blanditiis sequi veritatis quaerat.</p>
+                    </article>
+                    <div class="personal-info__data">
+                        <ul class="personal-info__list">
+                            <li class="personal-info__option">
+                                <span class="personal-info__title">Edad</span>
+                                <span class="personal-info__value">21</span>
+                            </li>
+                            <li class="personal-info__option">
+                                <span class="personal-info__title">Pais</span>
+                                <span class="personal-info__value">Guatemala</span>
+                            </li>
+                            <li class="personal-info__option">
+                                <span class="personal-info__title">Direccion</span>
+                                <span class="personal-info__value">Ciudad de Guatemala</span>
+                            </li>
+                            <li class="personal-info__option">
+                                <span class="personal-info__title">Correo</span>
+                                <span class="personal-info__value">dani.aljecontreras.1130@gmail.com</span>
+                            </li>
+                            <li class="personal-info__option">
+                                <span class="personal-info__title">Telefono</span>
+                                <span class="personal-info__value">47859913</span>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section class="about__services">
+                    <header class="services__header">
+                        <h2 class="services__title">Lo que <span class="title__color">hago</span></h2>
+                    </header>
+                    <div class="services__container">
+                        <article class="services__service">
+                            <div class="service__icon">
+                                <i class="service__real-icon fa-solid fa-code"></i>
+                                <div class="service__content">
+                                    <h3 class="service__title">Programacion</h3>
+                                    <p class="service__description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt maiores possimus aliquam cumque optio exercitationem nobis hic dolores deleniti, culpa illum quos impedit doloremque quia quidem accusamus facere ducimus ipsa.</p>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="services__service">
+                            <div class="service__icon">
+                                <i class="service__real-icon fa-solid fa-computer"></i>
+                                <div class="service__content">
+                                    <h3 class="service__title">Desarrollo Web</h3>
+                                    <p class="service__description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt maiores possimus aliquam cumque optio exercitationem nobis hic dolores deleniti, culpa illum quos impedit doloremque quia quidem accusamus facere ducimus ipsa.</p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+
+                <section class="about__reviews">
+                    <header class="reviews__header">
+                        <h2 class="reviews__title">Reseñas</h2>
+                    </header>
+                    <div class="reviews__container">
+                        <article class="reviews__review">
+                            <div class="review__image-container">
+                                <img class="review__image" src="assets/img/testimonio1.jpg" alt="testimonia1">
+                            </div>
+                            <div class="review__description">
+                                <p class="review__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam amet vel nesciunt eos placeat, labore quia odio asperiores cupiditate, a similique quas dolorem sapiente minus facilis ut nisi, aut mollitia?</p>
+                            </div>
+                            <div class="review__author">
+                                <div class="review__author-info">
+                                    <h4 class="review__name">lana</h4>
+                                    <h5 class="review__company">designer</h5>
+                                </div>
+                                <div class="review__author-icon">
+                                    <i class="review__icon fa-solid fa-quote-right"></i>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="reviews__review">
+                            <div class="review__image-container">
+                                <img class="review__image" src="assets/img/testimonio2.jpg" alt="testimonia2">
+                            </div>
+                            <div class="review__description">
+                                <p class="review__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam amet vel nesciunt eos placeat, labore quia odio asperiores cupiditate, a similique quas dolorem sapiente minus facilis ut nisi, aut mollitia?</p>
+                            </div>
+                            <div class="review__author">
+                                <div class="review__author-info">
+                                    <h4 class="review__name">luzu</h4>
+                                    <h5 class="review__company">developer</h5>
+                                </div>
+                                <div class="review__author-icon">
+                                    <i class="review__icon fa-solid fa-quote-right"></i>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+            </section>
+        </main>
+    </div>
+</body>
+</html>

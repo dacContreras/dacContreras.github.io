@@ -2,10 +2,118 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/scroll.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-free-6.1.2-web/css/all.min.css">
+    <link rel="stylesheet" href="assets/fonts/poppins/poppins.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <script src="assets/js/menu.js" defer></script>
+    <title>Portafolio</title>
 </head>
 <body>
-    <h1>github pages</h1>
+    <!-- layout principal -->
+    <div class="layout">
+        <!-- barra lateral | info usuario-->
+        <aside class="layout__aside">
+            <section class="aside__user-info">
+                <!-- info general -->
+                <div class="user-info__general">
+                    <div class="user-info__container-image">
+                        <img src="assets/img/img2.jpg" alt="Foto Perfil Daniel Contreras" class="user-info__image">
+                    </div>
+                    <h2 class="user-info__name">Daniel Contreras</h2>
+                    <h4 class="user-info__job">Frontend Developer</h4>
+                </div>
+
+                <!-- menu de navegacion -->
+                <nav class="layout__menu">
+                    <ul class="menu__list">
+                        <li class="menu__option">
+                            <a href="index.html" class="menu__link menu__link--active">
+                                <i class="menu__icon fa-solid fa-house"></i>
+                                <span class="menu__overlay">Home</span>
+                            </a>
+                        </li>
+                        <li class="menu__option">
+                            <a href="sobre-mi.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-user"></i>
+                                <span class="menu__overlay">Sobre Mi</span>
+                            </a>
+                        </li>
+                        <li class="menu__option">
+                            <a href="estudios.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-graduation-cap"></i>
+                                <span class="menu__overlay">Estudios</span>
+                            </a>
+                        </li>
+                        <li class="menu__option">
+                            <a href="portafolio.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-briefcase"></i>
+                                <span class="menu__overlay">Portafolio</span>
+                            </a>
+                        </li>
+                        <li class="menu__option">
+                            <a href="contacto.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-envelope"></i>
+                                <span class="menu__overlay">Contacto</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <!-- links a redes sociales -->
+                <div class="user-info__links">
+                    <ul class="links__social">
+                        <li class="social__option">
+                            <a href="" class="social__link">
+                                <i class="social__icon fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li class="social__option">
+                            <a href="" class="social__link">
+                                <i class="social__icon fa-brands fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <li class="social__option">
+                            <a href="" class="social__link">
+                                <i class="social__icon fa-brands fa-github"></i>
+                            </a>
+                        </li>
+                        <li class="social__option">
+                            <a href="" class="social__link">
+                                <i class="social__icon fa-brands fa-codepen"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- boton del curriculum -->
+                <div class="user-info__buttons">
+                    <a href="" class="user-info__btn">Descargar Cv</a>
+                </div>
+
+                <!-- pie de pagina -->
+                <footer class="user-info__footer">&copy; 2024 Daniel Contreras Website</footer>
+
+            </section>
+        </aside>
+
+        <!-- MENU RESPONSIVE -->
+        <div class="layout__menu-toggle">
+            <i class="fa-solid fa-bars toggle__icon"></i>
+            <i class="fa-solid fa-xmark toggle__icon"></i>
+        </div>
+
+        <!-- Contenido -->
+        <main class="layout__content">
+            <section class="content__page">
+                <img class="page__image" src="./assets/img/chi.png" alt="logo">
+                <h1 class="page__name">Daniel Contreras</h1>
+                <h2 class="page__job">Frontend Developer</h2>
+            </section>
+        </main>
+    </div>
 </body>
 </html>
