@@ -555,10 +555,10 @@ body{
     border: 2px solid var(--color-principal);
     border-radius: 1rem;
 }
-.skills__percentaje--p1{ width: 40%; }
+.skills__percentaje--p1{ width: 100%; }
 .skills__percentaje--p2{ width: 50%; }
-.skills__percentaje--p3{ width: 60%; }
-.skills__percentaje--p4{ width: 70%; }
+.skills__percentaje--p3{ width: 75%; }
+.skills__percentaje--p4{ width: 85%; }
 
 .knowledges__list{
     display: flex;
